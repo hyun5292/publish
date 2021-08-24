@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html, body { margin: 0; padding: 0; }
+body { font-family: 'Poppins', sans-serif; font-weight: 400; line-height: 1.4; text-align: center; color: #fff; background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); }
+body:before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: #1b1b32; background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+
+.title { margin: 83px auto 46px; }
+.title h1 { margin: 0 0 32px; font-size: 3.7rem; font-weight: 400; line-height: 1.2; }
+.title p { margin: 0; font-size: 2rem; font-style: oblique; }
+
+.info { margin: 0 auto 5px; text-align: left; padding: 75px 43px 95px; width: 56%; font-size: 20px; background: rgba(27, 27, 50, 0.8); border-radius: 3px; }
+.info div { margin-bottom: 50px; }
+.info label { align-items: center; display: flex; margin-bottom: 20px; font-size: 2.5rem; }
+.info .clue { font-size: 1.8rem; }
+.info .input_form,
+.info select,
+.info textarea { box-sizing: border-box; padding: 20px; width: 100%; border: none; border-radius: 0.25rem; font-size: 2rem; }
+.info .input_radio,
+.info .input_checkbox { margin-right: 15px; min-height: 30px; min-width: 30px; }
+.info button { display: block; width: 100%; padding: 26px 0; font-size: 2rem; background: #37af65; color: inherit; border: none; border-radius: 3px; cursor: pointer; }
