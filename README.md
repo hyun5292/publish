@@ -4,5 +4,5 @@
   Webstoryboy 참고
   + 웹 표준 사이트
     publish/standard/stdex8/index.html -> 최종 메인 사이트
-    <img src="https://user-images.githubusercontent.com/57443458/130648367-d873c949-7d0d-42fe-9ba8-b3497ed80fa1.png  width="30%"/>
+    <img src="https://user-images.githubusercontent.com/57443458/130648367-d873c949-7d0d-42fe-9ba8-b3497ed80fa1.png"  width="30%"/>
 
