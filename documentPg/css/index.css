@@ -1,0 +1,36 @@
+body { min-width: 290px; color: #4d4e53; font-family: 'Open Sans', Arial, sans-serif; line-height: 1.5; }
+
+/* nav */
+.navbar { position: fixed; left: 0; top: 0; width: 300px; height: 100%; border-right: 1px solid rgba(47, 58, 58, 0.4); }
+.navbar h1 { padding: 20px 25px; color: #000; font-size: 30px; font-weight: 400; }
+.navbar ul { margin: 0; padding: 0; height: 88%; overflow-y: auto; overflow-x: hidden; list-style: none; }
+.navbar ul li { border-top: 1px solid #4d4e53; font-size: 15px; }
+.navbar ul li a { display: block; padding: 15px 30px; color: #4d4e53; text-decoration: none; cursor: pointer; }
+/* //nav */
+
+/* main */
+.main_doc { position: fixed; left: 310px; top: 0; height: 100%; overflow-y: auto; overflow-x: hidden; }
+.main_doc .wrap { padding: 30px; }
+.main_doc section { word-break: keep-all; }
+.main_doc section header { color: #000; font-size: 30px; font-weight: 400; }
+.main_doc section article { padding: 15px 0 0 15px; }
+.main_doc section article p { padding-bottom: 10px; }
+.main_doc section article p code { display: block; margin: 10px; padding: 20px 15px; color: #000; background: #f7f7f7; line-height: 2; border-radius: 3px; }
+.main_doc section article ul li { padding-bottom: 10px; }
+/* //main */
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    .navbar { position: absolute; left: 0; top: 0; width: 100%; max-height: 255px; background-color: #fff; border: none; z-index: 1; border-bottom: 2px }
+    .navbar h1 { text-align: center; }
+    .navbar ul { border: 1px solid; height: 165px; }
+
+    .main_doc { position: absolute; left: 0; top: 255px; }
+}
+  
+@media only screen and (max-width: 400px) {
+    .main_doc .wrap { padding: 10px; }
+    .main_doc section article { padding: 5px 0 0 5px; }
+    .main_doc section article ul { padding-left: 15px; margin: 10px; }
+    .main_doc section article p code { margin: 10px 0; padding: 10px 5px; }
+}
